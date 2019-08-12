@@ -1,0 +1,25 @@
+{
+  "name": "koa-starter",
+  "version": "1.0.0",
+  "description": "node koa project starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bangood/koa-starter.git"
+  },
+  "keywords": [
+    "node",
+    "koa",
+    "babel",
+    "webpack"
+  ],
+  "author": "'bangood' <'2419281635@qq.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bangood/koa-starter/issues"
+  },
+  "homepage": "https://github.com/Bangood/koa-starter#readme"
+}
