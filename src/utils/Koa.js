@@ -1,7 +1,7 @@
 import koa from 'koa';
 export default class Koa {
+    app = new koa();
     constructor(port) {
-        this.app = new koa();
         this.app.use(ctx => {
             ctx.body = 'hello koa starter';
         });
