@@ -5,6 +5,9 @@ export default class RaceService {
         return theRaceList;
     }
     async add(newRace){
+        if(!newRace.validate()){
+            throw new Error('Invalid Race');
+        }
         const theRace = await new RaceDAL().add(newRace);
         return theRace;
     }
