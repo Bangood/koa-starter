@@ -7,6 +7,6 @@ export default class Race {
     validate() {
         const v = new Validator();
         const { errors } = v.validate(this, RaceSchema);
-        return errors.length === 0;
+        return errors;
     }
 }
